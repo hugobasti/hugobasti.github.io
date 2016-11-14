@@ -1,0 +1,95 @@
+                    body {
+                    background-color: #a4dc22;
+                    background-image: url(Zeichnung-5.svg);
+                    background-repeat: no-repeat;
+                    background-position: top right;
+                    font-family: cursive;
+                    opacity: 0.2;
+                }
+                
+                @keyframes erscheinen {
+                    0% {
+                        opacity: 0.3;
+                    }
+                    100% {
+                        opacity: 1.0;
+                    }
+                }
+                
+                body:hover {
+                    animation-name: erscheinen;
+                    animation-duration: 5s;
+                    opacity: 1.0;
+                }
+                
+                h1 {
+                    font-size: 50px;
+                    font-family: 'Arial';
+                    color: #22dc85;
+                    font-style: italic;
+                    font-weight: inherit;
+                    font-variant: normal;
+                }
+                
+                h2 {
+                    text-decoration: none;
+                    text-align: center;
+                }
+                /*  p */
+                
+                #nummer1 {
+                    background-color: bisque;
+                    text-align: center;
+                    /*
+    letter-spacing: 10px;
+ word-spacing: 15pc;
+ line-height: 30px;
+*/
+                    
+                    text-transform: capitalize;
+                    border-color: firebrick;
+                    border-width: 5px;
+                    border-left-style: dotted
+                        ;
+                    border-top-style: solid;
+                    border-radius: 50px;
+                    padding: 60px;
+                    margin: 80px;
+                    opacity: 0, 5;
+                    box-shadow: 3px 3px 10px red;
+                    position: fixed;
+                    top: 80px;
+                    left: 150px;
+                    z-index: 1;
+                    width: auto;
+                    height: auto;
+                }
+                
+                #nummer2 {
+                    background-color: yellow;
+                    text-align: center;
+                    /*
+    letter-spacing: 10px;
+ word-spacing: 15pc;
+ line-height: 30px;
+*/
+                    text-transform: capitalize;
+                    border-color: firebrick;
+                    border-width: 5px;
+                    border-left-style: dotted;
+                    border-top-style: solid;
+                    border-radius: 50px;
+                    padding: 50px;
+                    margin: 70px;
+                    opacity: 0, 5;
+                    box-shadow: 3px 3px 10px red;
+                    position: fixed;
+                    top: 300px;
+                    left: 70px;
+                    z-index: 21;
+                }
+                
+
+                ul {
+                    list-style: circle;}
+img{float: right; }
