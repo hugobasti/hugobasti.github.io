@@ -1,6 +1,7 @@
 .inhalt {
     margin-top: 80px;
 }
+
 .profilbild_image {
     border-radius: 150px;
     margin-bottom: 20px;
@@ -8,7 +9,6 @@
 
 .artikel-metadata {
     margin-top: 20px;
-    
 }
 
 .artikelbild {
@@ -25,13 +25,10 @@
 }
 
 .geb {
-     
-                    font-size: 50px;
-                    font-family: 'Arial';
-                    color: 
-                    font-style: italic;
-                    font-weight: inherit;
-                    font-variant: normal;
-    background-color:  pink
+    font-size: 50px;
+    font-family: 'Arial';
+    color: font-style: italic;
+    font-weight: inherit;
+    font-variant: normal;
+    background-color: red;
 }
-
